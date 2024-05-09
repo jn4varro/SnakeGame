@@ -27,7 +27,9 @@ goal.shape("circle")
 goal.color(48 ,98, 48)
 goal.goto(0, 100)
 
-
+#Asignar teclas a funciones de movimiento
+def mover_arriba():
+    head.direction = "up"
 
 while True:
     ventana.update()
